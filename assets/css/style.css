@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 10px;
+    padding: 0;
+}
+
+body, html {
+    background: #F2F2F2;
+    font-size: 16px;
+}
+
+.container{
+    width: 90vw;
+    min-width: 576px;
+    max-width: 1200px;
+    min-height: 90vh;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr; 
+    grid-gap:10px;
+    grid-template-areas: 
+    "item_1 item_2 item_3 item_4"
+    "item_1 item_5 item_5 item_5"
+   
+   
+}
+.item {
+
+    padding-top: 3rem;
+    border: 1px solid lightgray;
+    background: white;
+    box-shadow: 0px 0px 3px grey;
+    border-radius: 10px; 
+
+}
+
+.item_1 {
+ grid-area: item_1;
+}
+
+.item_2 {
+grid-area: item_2;
+}
+
+.item_3 {
+    grid-area: item_3;
+   
+}
+
+.item_4 {
+    grid-area: item_4;
+}
+
+.item_5 {
+    grid-area: item_5;
+    padding: 2rem;
+    text-align: justify;
+}
+
+.portrait{
+   padding-top: 3rem;
+   padding-left: 1.2rem;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px; 
+    object-fit: cover;
+}
+
+button {
+    background: green;
+    color: white;
+    width: 14rem;
+    height: 2rem;
+    border:green;
+    margin-top: 15px;
+    font-size:1rem;
+}
+
+.description, h2 {
+    text-align: center;
+}
+
+.grey {
+    color: grey;
+    text-align: center;
+}
+
+.fifth {
+    color: grey;
+}
+.green {
+    color: green;
+    font-size: xxx-large;
+    text-align: center;
+}

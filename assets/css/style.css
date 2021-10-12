@@ -14,11 +14,7 @@ body {
 
 
 .container{
-<<<<<<< Updated upstream
-    width: 90vw;
-=======
     width:90vw;
->>>>>>> Stashed changes
     min-width: 576px;
     max-width: 1200px;
     min-height: 90vh;

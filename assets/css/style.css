@@ -1,18 +1,21 @@
 * {
-    box-sizing: border-box;
     margin: 10px;
     padding: 0;
 }
 
-body, html {
-    background: #F2F2F2;
+html {
     font-size: 16px;
 }
 
+body {
+    background-color: #F2F2F2 !important;
+    overflow: auto;
+}
+
+
 .container{
     width: 90vw;
-    min-width: 576px;
-    max-width: 1200px;
+    min-width: 100vh;
     min-height: 90vh;
     position: relative;
     display: grid;
@@ -23,16 +26,15 @@ body, html {
     "item_1 item_2 item_3 item_4"
     "item_1 item_5 item_5 item_5"
    
-   
-}
-.item {
 
+}
+
+.item {
     padding-top: 3rem;
     border: 1px solid lightgray;
-    background: white;
     box-shadow: 0px 0px 3px grey;
     border-radius: 10px; 
-
+    background-color: white;
 }
 
 .item_1 {
@@ -58,9 +60,11 @@ grid-area: item_2;
     text-align: justify;
 }
 
+
+
 .portrait{
-   padding-top: 3rem;
-   padding-left: 1.2rem;
+    padding-top: 3rem;
+    padding-left: 1.5rem;
 }
 
 img {
@@ -71,22 +75,18 @@ img {
 }
 
 button {
-    background: green;
-    color: white;
     width: 14rem;
-    height: 2rem;
-    border:green;
-    margin-top: 15px;
-    font-size:1rem;
 }
 
 .description, h2 {
     text-align: center;
+    font-weight: 11.5rem;
 }
 
 .grey {
     color: grey;
     text-align: center;
+    font-size: 1.5rem;
 }
 
 .fifth {

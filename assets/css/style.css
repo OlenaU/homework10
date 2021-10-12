@@ -15,7 +15,8 @@ body {
 
 .container{
     width: 90vw;
-    min-width: 90vh;
+    min-width: 576px;
+    max-width: 1200px;
     min-height: 90vh;
     position: relative;
     display: grid;

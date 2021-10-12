@@ -15,7 +15,7 @@ body {
 
 .container{
     width: 90vw;
-    min-width: 100vh;
+    min-width: 90vh;
     min-height: 90vh;
     position: relative;
     display: grid;
@@ -81,7 +81,7 @@ button {
 
 .description, h2 {
     text-align: center;
-    font-weight: 11.5rem;
+    font-size: 9rem;
 }
 
 .grey {
